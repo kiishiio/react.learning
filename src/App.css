@@ -1,0 +1,47 @@
+:root{
+  background-color:floralwhite;
+  color: #2b2a2a;
+}
+
+:link, :visited{
+  color: #2b2a2a;
+  font-style: normal;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:link:hover{
+  color: #2b2a2a;
+  text-decoration: none;
+  transform: scale(1.1) translateY(-1px);
+}
+
+.top{
+  justify-content: center;
+  align-content: center;
+  background-color: red;
+}
+
+.main{
+  display: flex;
+  flex: 1 1 100;
+  flex-flow: column wrap;
+
+  justify-content: center;
+  align-content: stretch;
+}
+
+
+.top{
+  box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+}
+
+
+@media screen and (max-width: 540px) {
+  .top{
+    height: 4vh;
+    justify-content: center;
+    align-content: center;
+  }
+}
